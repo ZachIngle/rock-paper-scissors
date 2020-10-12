@@ -1,0 +1,46 @@
+body {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+#main {
+  background-color: white;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+p {
+  font-size: 2em;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+#button-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#result-group {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 2em auto;
+}
+
+#player-score, #computer-score {
+  font-weight: bold;
+}
